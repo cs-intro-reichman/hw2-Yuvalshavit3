@@ -12,9 +12,9 @@ public class Cheers {
         if (word.charAt(index) == 'A' || word.charAt(index) == 'E' || word.charAt(index) == 'F' || word.charAt(index) == 'H' || word.charAt(index) ==  'I'
         || word.charAt(index) == 'L' || word.charAt(index) == 'M' || word.charAt(index) == 'N' || word.charAt(index) ==  'O' || word.charAt(index) == 'R'
         || word.charAt(index) == 'S' || word.charAt(index) == 'X' ) {
-                System.out.println("Give me an " + word.charAt(index) + " : " + word.charAt(index) + "!");
+                System.out.println("Give me an " + word.charAt(index) + ": " + word.charAt(index) + "!");
         } else {
-                System.out.println("Give me a " + word.charAt(index) + " : " + word.charAt(index) + "!");
+                System.out.println("Give me a  " + word.charAt(index) + ": " + word.charAt(index) + "!");
         }
         
         i++;
