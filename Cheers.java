@@ -3,6 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
         
         String word = args[0].toUpperCase();
+        int cheersTimes = Integer.parseInt(args[1]);
         
         int length = word.length();
         int i = 0;
@@ -21,11 +22,7 @@ public class Cheers {
         index++;
         }
         System.out.println("What does that spell?");
-
-        System.out.println(word + "!!!");
-        System.out.println(word + "!!!");
-        System.out.println(word + "!!!");
-        System.out.println(word + "!!!");
+        for(int numCheers = 0; numCheers < cheersTimes; numCheers++)
         System.out.println(word + "!!!");
         }
 }
